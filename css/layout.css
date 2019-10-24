@@ -23,5 +23,22 @@
 }
 
 /* Positioning Classes */
-
-
+.shadow {
+  margin-bottom: 20px;
+}
+.container .shadow:first-of-type{
+  width:67%;
+  float: left;
+  box-sizing: border-box;
+}
+.container .shadow:last-of-type{
+  width:30%;
+  float:right;
+  box-sizing: border-box;
+}
+.deals{
+  column-count: 3;
+}
+#details .wrapper{
+  column-count: 3;
+}
