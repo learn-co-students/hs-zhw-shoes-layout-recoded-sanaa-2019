@@ -23,5 +23,21 @@
 }
 
 /* Positioning Classes */
-
-
+.auto{
+  height: auto;
+}
+.col1{
+  float: left;
+  width: 32%;
+  margin-bottom: 1%;
+  
+}
+.col11{
+  float: left;
+  width: 66%;
+  margin-bottom: 1%;
+  
+}
+.marginRight{
+  margin-right: 2%;
+}

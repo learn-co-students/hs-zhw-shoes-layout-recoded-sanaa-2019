@@ -112,13 +112,40 @@ iframe {
 
 .shadow {
   box-shadow: 0 3px 10px #333;
+  /* column-count: 3;
+  column-width: 100px; */
 }
-
+/* .columns{
+  column-count: 3;
+} */
+/* .floatLeft{
+  float: left;
+}
+#shadow70{
+  width: 65%;
+  margin: 10px 15px 20px 0px;
+}
+#shadow25{
+  width: 30%;
+  margin-right: 0px;
+  height: 100%;
+  margin: 10px 0px;
+  
+}
+.width30{
+  width: 31%;
+}
+.marginRight{
+  margin-right: 3%;
+}
+.clearfix{
+  clear: both;
+} */
 .milk_text {
   font: bold 42px 'Elsie Swash Caps', cursive;
   color: white;
   text-shadow: 0 2px 3px #000;
-  margin: 0 0 10px;
+  margin: 10px 0 10px;
 }
 
 .border_right {
@@ -268,6 +295,7 @@ section a {
 
 #details {
   clear:both;
+  
   padding: 20px 10px;
   /* gradient */
   background: rgb(229,229,229); /* Old browsers */
