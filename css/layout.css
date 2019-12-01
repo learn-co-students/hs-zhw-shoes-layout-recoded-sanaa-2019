@@ -11,7 +11,7 @@
 
 .clearfix:after {
   content: ".";
-  display: block;
+  display: both;
   clear: both;
   visibility: hidden;
   height: 0;
@@ -21,7 +21,53 @@
 .clear {
   clear: both;
 }
+.row-1{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+}
+flex0{
+  flex:0 0 20%; 
 
-/* Positioning Classes */
+}
+.col-1{
+
+background-color: white;
+height:635px;
+margin-left: 20px;
+}
+.col-2{
+  margin-left:20px;
+  background-color: white;
+width:430px;
+}
+.row-0{
+  background-color: white;
+  width:940px;
+  margin-left: 20px;
+}
+.row
+{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+}
+.flex{
+  flex:0 0 31%;
+ flex-wrap: wrap;
+background-color: white;
+margin-top:10px;
+margin-left: 22px;
+
+ 
+}
+.row-2{  display: flex;
+  flex-direction: row;
+  width:100%;}
+.flex2{
+  flex:0 0 31%;
+  margin-left: 30px;
+}
+  /* Positioning Classes */
 
 
