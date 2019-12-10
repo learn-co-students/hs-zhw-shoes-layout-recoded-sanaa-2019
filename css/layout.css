@@ -24,4 +24,29 @@
 
 /* Positioning Classes */
 
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%
+}
 
+.child1 {
+  width: 66%;
+  margin-bottom: 20px
+}
+
+.child2 {
+  width: 31.8%;
+  margin-left: 20px;
+  margin-bottom: 19px
+}
+
+.child3 {
+  width: 31.9%;
+  margin-bottom: 19px;
+}
+
+.child4 {
+  width: 33.3%;
+}
