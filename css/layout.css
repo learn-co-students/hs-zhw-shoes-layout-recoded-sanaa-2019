@@ -1,9 +1,9 @@
 /********** Fixes **********/
 
 * {
-  margin:0;
-  padding:0;
-  border:0;
+  margin: 0;
+  padding: 0;
+  border: 0;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -22,6 +22,36 @@
   clear: both;
 }
 
+
 /* Positioning Classes */
 
+.row {
+  clear: both;
+  margin-bottom: 2%;
+}
 
+.row:after {
+  display: block;
+  content: ".";
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  line-height: 0;
+}
+
+[class*="col-"] {
+  margin-left: 2%;
+  float: left;
+}
+
+[class*="col-"]:first-child {
+  margin-left: 0;
+}
+
+.col-4 {
+  width: 32%;
+}
+
+.col-8 {
+  width: 66%;
+}
